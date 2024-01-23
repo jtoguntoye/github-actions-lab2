@@ -9,7 +9,7 @@ jobs:
          os: [ubuntu-latest, macos-latest, windows-latest]
          py-version: [3.7, 3.8, 2.9] 
          exclude: 
-           - os: mac-os 
+           - os: macos-latest 
              py-version: 3.9
     runs-on: ${{ matrix.os }}
     steps:
